@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/patients")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://carepulse-frontend-two.vercel.app/")
 public class PatientController {
     @Autowired
     private PatientService patientService;

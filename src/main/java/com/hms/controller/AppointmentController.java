@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/appointments")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://carepulse-frontend-two.vercel.app/")
 public class AppointmentController {
     @Autowired
     private AppointmentService appointmentService;

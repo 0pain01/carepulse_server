@@ -14,7 +14,7 @@ import java.nio.file.StandardCopyOption;
 
 @RestController
 @RequestMapping("/api/files")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://carepulse-frontend-two.vercel.app/")
 public class FileController {
 
     private static final String UPLOAD_DIR = "uploads/";

@@ -13,8 +13,8 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 @RestController
-@RequestMapping("/api/files")
 @CrossOrigin(origins = "https://carepulse-frontend-two.vercel.app/")
+@RequestMapping("/api/files")
 public class FileController {
 
     private static final String UPLOAD_DIR = "uploads/";

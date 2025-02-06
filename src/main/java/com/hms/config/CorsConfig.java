@@ -15,7 +15,7 @@ public class CorsConfig {
     CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOrigins(Collections.singletonList("http://localhost:3000"));
+        config.setAllowedOrigins(Collections.singletonList("https://carepulse-frontend-two.vercel.app"));
         config.setAllowedHeaders(Collections.singletonList("*")); // Allow all headers
         config.setAllowedMethods(Collections.singletonList("*")); // Allow all HTTP methods
 

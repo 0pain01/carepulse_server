@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/appointments")
 @CrossOrigin(origins = "https://carepulse-frontend-two.vercel.app/")
+@RequestMapping("/api/appointments")
 public class AppointmentController {
     @Autowired
     private AppointmentService appointmentService;

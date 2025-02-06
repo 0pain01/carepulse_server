@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/patients")
 @CrossOrigin(origins = "https://carepulse-frontend-two.vercel.app/")
+@RequestMapping("/api/patients")
 public class PatientController {
     @Autowired
     private PatientService patientService;
